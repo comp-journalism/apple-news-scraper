@@ -12,9 +12,9 @@ __author__ = "Jack Bandy"
 
 
 # user-defined variables
-device_name_and_os = 'iPhone XS Max (12.1)'
+device_name_and_os = 'iPhone X (12.1)'
 device_os = '12.1'
-udid = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'
+udid = '7FE3C1AB-B38A-44F2-A48D-13F3D1882770'
 
 output_folder = 'data_output/'
 
@@ -34,10 +34,11 @@ from glob import glob
 
 
 # constants
-APP_PATH = ('/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Applications/News.app')
+#APP_PATH = ('/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Applications/News.app')
+APP_PATH = ('/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Applications/News.app')
 # how many secs to wait between pressing "share" and "copy."
 # (A hack to get around slower simulators)
-SLEEP_T = 5
+SLEEP_T = 1
 
 
 
