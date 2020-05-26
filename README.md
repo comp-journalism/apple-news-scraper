@@ -1,5 +1,7 @@
 # Apple News Scraper
 
+![](Demo.gif)
+
 This repository provides code and data used in the following paper:
 
 Bandy, Jack and Nicholas Diakopoulos. "**Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News.**" *To Appear in* Proceedings of the Fourteenth International AAAI Conference on Web and Social Media (ICWSM 2020).
@@ -9,8 +11,11 @@ Bandy, Jack and Nicholas Diakopoulos. "**Auditing News Curation Systems: A Case 
 
 #### Install Appium
 Download appium-desktop: https://github.com/appium/appium-desktop/releases/latest
-
 (You can try the brew/npm installation - https://appium.io - but those releases have been buggier in my experience)
+
+And the python client: `pip install Appium-Python-Client`
+
+Also, carthage (another dependency) often does not install automatically. Run `brew install carthage` to be sure.
 
 
 #### Install apple-news-scraper
@@ -37,6 +42,8 @@ output_folder = '~/apple_news_data/'
 
 
 ## Execution
+First, run the simulator of choice and open the Apple News app: `instruments -w "iPhone XS Max (12.1)"`
+
 Execution should be as easy as `python get_stories.py`
 
 To run repeatedly, I recommend cron. Just make sure you use absolute paths. For example, to run collection every five minutes, add something like this to your crontab:
