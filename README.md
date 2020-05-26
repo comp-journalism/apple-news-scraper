@@ -1,5 +1,7 @@
 # Apple News Scraper
 
+![](Demo.gif)
+
 This repository provides code and data used in the following paper:
 
 Bandy, Jack and Nicholas Diakopoulos. "**Auditing News Curation Systems: A Case Study Examining Algorithmic and Editorial Logic in Apple News.**" *To Appear in* Proceedings of the Fourteenth International AAAI Conference on Web and Social Media (ICWSM 2020).
